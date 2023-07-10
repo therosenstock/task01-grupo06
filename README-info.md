@@ -1,3 +1,5 @@
 # Integrantes - **Grupo 6**.
 
-Fabiola Rodrigues - *Front-end.* 
+* Antonio Badaró - *Back-end.* 
+
+* Fabiola Rodrigues - *Front-end.* 
