@@ -56,3 +56,20 @@ Por exemplo, se você deseja reverter o commit com o identificador abc123, você
 >git revert abc123
 
 Após executar o comando, o Git criará um novo commit que desfaz as alterações introduzidas pelo commit abc123. Essa abordagem permite manter o histórico de commits intacto, enquanto registra a reversão das alterações.
+
+## Git Squash
+
+No Git, o termo squash é usado para compactar os commits anteriores em um só. Não é um comando; em vez disso, é uma palavra-chave. O squash é uma excelente técnica para mudanças específicas do grupo antes de encaminhá-las para os outros. Você pode mesclar vários commits em um único commit.
+
+* ### Uso
+1- Uso o git log para ver os commits que tenho;
+
+2- Logo em seguida, uso: git rebase -i HEAD~2;
+
+3- Após isso será aberto um menu interativo para que eu decida o que irei fazer;
+
+4- Aperto a tecla i, apago o segundo pick e escrevo squash;
+
+5- aperto Esc e digito: ":wq";
+
+6- Escrevo a mensagem do novo commit;
