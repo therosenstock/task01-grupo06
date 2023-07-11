@@ -39,3 +39,20 @@ ainda entá em andamento, podemos buscar na branch do colega por meio do git log
 o id do commit necessário e aplicalo com cherry pie.
 
 >git cherry-pick <*id do commit necessário*>
+
+## Git revert
+
+O comando git revert é usado no Git para desfazer um ou mais commits específicos. Ao contrário do git reset, que remove commits do histórico, o git revert cria um novo commit que reverte as alterações introduzidas pelos commits selecionados.
+
+* ### Uso
+Ao executar o comando git revert, o Git criará um novo commit que desfaz as alterações do commit selecionado. O novo commit terá a mensagem padrão informando que uma reversão foi aplicada.
+
+>git revert <*commit*>
+
+Aqui, <*commit*> representa o identificador do commit que você deseja reverter. Você também pode especificar vários commits separados por espaço para reverter vários commits em sequência.
+
+Por exemplo, se você deseja reverter o commit com o identificador abc123, você pode executar o seguinte comando:
+
+>git revert abc123
+
+Após executar o comando, o Git criará um novo commit que desfaz as alterações introduzidas pelo commit abc123. Essa abordagem permite manter o histórico de commits intacto, enquanto registra a reversão das alterações.
