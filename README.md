@@ -27,3 +27,15 @@ Isso rebaseia o branch atual, mas usa uma sessão de rebase interativa. Isso abr
 
 
 * git rebase -- x
+
+## Git Cherry Pick
+
+Aplique as alterações introduzidas por alguns commits existentes
+
+* ### Uso
+Esse comando é usado quando mais de uma pessoa está trabalhando em branchs
+que possuem relações, caso um encontre um problema e a corrija porém sua task
+ainda entá em andamento, podemos buscar na branch do colega por meio do git log
+o id do commit necessário e aplicalo com cherry pie.
+
+>git cherry-pick <*id do commit necessário*>
