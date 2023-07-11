@@ -1,12 +1,12 @@
 # Comandos Git
 <h2> Git Rebase </h2> 
-Serve para integrar alterações de uma branch para outra.
-Processe de mover ou combinar uma sequência de commits para um novo commit base.
+Serve para integrar alterações de uma branch para outra, no processo de mover ou combinar uma sequência de commits para um novo commit base.
 O rebase muda a base do seu branch de um commit para outro, fazendo parecer que o seu branch foi criado a partir de um commit diferente.
 Importante entender que apesar de parecer o mesmo branch, ele é composto de commits novos.
+<br/>
 <h3>Uso</h3>
-Usado para manter um histórico de projeto de maneira linear. Exemplo: se você está trabalhando em um branch alternativo, e o seu branch principal progrediu; então você deseja obter informações mais recentes da principal em sua branch, desejando manter o histórico de sua ramificação limpo, parecendo que está trabalhando na principal. Oferece o benefício posterior de uma mesclagem mais limpa na sua branch. Manter essa "história limpa" tem como benefício de tornar tangível ao executar operações do Git para investigar a introdução de uma regressão.
- <h3>Git rebase Standard e Git Rebase Interactive</h3>
+Usado para manter um histórico de projeto de maneira linear. Exemplo: se você está trabalhando em um branch alternativo, e o seu branch principal progrediu, então você deseja obter informações mais recentes da principal em sua branch, desejando manter o histórico de sua ramificação limpo, parecendo que está trabalhando na principal. Oferece o benefício posterior de uma mesclagem mais limpa na sua branch. Manter essa "história limpa" tem como benefício de tornar tangível ao executar operações do Git para investigar a introdução de uma regressão.
+ <h3>Git Rebase Standard e Git Rebase Interactive</h3>
  Git rebase interativo é quando o git rebase aceita argumentos. Sem nenhum argumento é executado no modo padrão.
 
  > git checkout -b new_feature
